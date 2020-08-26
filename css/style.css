@@ -1,0 +1,174 @@
+/**
+* Template Name: My_iPortfolio - v1.0.0
+* Template URL: 
+* Author: Mostafa kamal
+* License: 
+*/
+
+/*--------------------------------------# General--------------------------------------*/
+
+
+
+
+body {
+   font-family: "Open Sans", sans-serif;
+  color: #272829;
+}
+
+
+
+/*-----------------------# Back to top button----------------------------------------*/
+.back-to-top {
+  position: fixed;
+  display: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  right: 15px;
+  bottom: 15px;
+  background: #149ddd;
+  color: #fff;
+  transition: display 0.5s ease-in-out;
+  z-index: 99999;
+}
+
+.back-to-top i {
+  font-size: 24px;
+  position: absolute;
+  top: 7px;
+  left: 8px;
+}
+
+.back-to-top:hover {
+  color: #fff;
+  background: #2eafec;
+  transition: background 0.2s ease-in-out;
+}
+
+
+/*----------------------------------------------------# main Menu--------------------------------*/
+.sticky {
+    position: fixed;
+    background: rgb(220 210 210 / 50%);
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+header{
+  -webkit-position: absolute;
+  -moz-position: absolute;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  z-index: 111;
+}
+
+
+
+
+.navbar {
+    font-family: "Open Sans", sans-serif;
+    padding:0;
+   /*-webkit- background-color: rgba(333,333,333,.2);
+   -moz- background-color: rgba(333,333,333,.2);*/
+}
+ul.navbar-nav {
+    margin-right: 40px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  color:#000;
+  font-weight: bold;
+ /* padding: 14px 25px;  it will use when full background active color*/
+  padding: 23px 18px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.navbar-nav .active .nav-link    {
+  /*background-color: #28a745;
+  border-radius: 30px;
+  color:#fff; it will use when full background active color*/
+  border-bottom:2px solid #28a745;
+
+}
+.navbar-brand img{
+  width: 150px;
+  height: 60px;
+}
+
+/*.btn-dark{
+  padding: 10px 20px;
+  border-radius: 10px;
+}*/
+
+
+/*----------------------------------# slider----------------------------------*/
+
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 36px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.banner-left h6 {
+    font-size: 18px;
+    padding: 10px 0;
+    display: inline-block;
+}
+.banner-left h1 {
+    font-size: 57px;
+    font-weight: 900;
+}
+h1 span {
+    font-size: 57px;
+    font-weight: 900;
+    color: #28a745;
+}
+.we-have img{
+  width: 80px;
+  height: 100px;
+}
+.we-have{
+  padding: 48px 20px;
+  border-radius: 7px;
+  background-color:rgba(249, 243, 243, .7);
+}
+.we-have h3{
+  font-size: 25px;
+  font-weight: 600;
+}
+.we-have p {
+    font-size: 18px;
+    padding: 5px 3px;
+}
+.we-have:hover{
+  background-color: #fff;
+  box-shadow: 5px 5px 20px lightgrey;
+  transition: .5s; 
+}
+.card{
+  padding: 25px;
+  border:none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px lightgrey;
+}
+.card-title h2 {
+    font-size: 24px;
+    padding: 14px 0;
+    margin: 0;
+    font-weight: 800;
+}
+a.card-link {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+}
+.link i {
+    padding: 0 5px;
+    font-size: 15px;
+}
